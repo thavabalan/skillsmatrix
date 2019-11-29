@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('skills','SkillController');
+Route::resource('companies','CompanyController');
+Route::resource('candidates','CandidateController');
